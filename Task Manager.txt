@@ -1,0 +1,13 @@
+In this project, the user can perform various actions such as adding tasks, viewing tasks, deleting tasks, and quitting the task manager. The tasks are stored in a list called tasks.
+
+The add_task function prompts the user to enter a task and adds it to the list of tasks.
+
+The view_tasks function displays all the tasks in the list. If there are no tasks, it informs the user.
+
+The delete_task function displays the tasks with their corresponding numbers and prompts the user to enter the number of the task they want to delete. If the task number is valid, it deletes the task from the list. Otherwise, it informs the user of an invalid task number.
+
+The main function provides a menu with options for the user to choose from. Based on the user's choice, it calls the respective functions to perform the desired actions. The menu continues to be displayed until the user chooses to quit.
+
+You can run the script to start the task manager and interact with it by choosing different options from the menu.
+
+Feel free to customize and enhance the project based on your needs. You could add features like task priority, due dates, or the ability to save tasks to a file for future use.
